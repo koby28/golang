@@ -1,0 +1,120 @@
+2018/05/01 10:55:19.217 [I] [main.go:15] init sec succ
+2018/05/01 10:55:19.371 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/01 18:11:46.440 [D] [init.go:114] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:4 version:3 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1032,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/01 18:11:46.440 [I] [main.go:15] init sec succ
+2018/05/01 18:11:46.601 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/02 23:02:01.052 [E] [init.go:115] ping redis failed, err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2018/05/02 23:02:01.067 [E] [main.go:15] init redis failed, err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2018/05/05 09:24:25.570 [D] [init.go:122] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:4 version:3 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1032,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 09:24:25.596 [E] [init.go:122] Unmarshal sec product info failed,err:json: cannot unmarshal array into Go value of type main.SecProductInfoConf
+2018/05/05 09:24:25.597 [I] [main.go:15] init sec succ
+2018/05/05 09:35:43.399 [D] [init.go:122] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:4 version:3 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1032,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 09:35:43.399 [D] [init.go:122] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1032 1517495965 1517582365 0 900 0}]]
+2018/05/05 09:35:43.400 [I] [main.go:15] init sec succ
+2018/05/05 09:35:43.558 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/05 09:48:33.617 [D] [init.go:122] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:4 version:3 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1032,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 09:48:33.618 [D] [init.go:122] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1032 1517495965 1517582365 0 900 0}]]
+2018/05/05 09:48:33.621 [I] [main.go:15] init sec succ
+2018/05/05 09:48:33.773 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/05 10:05:11.389 [D] [init.go:122] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:4 version:3 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1032,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 10:05:11.390 [D] [init.go:122] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1032 1517495965 1517582365 0 900 0}]]
+2018/05/05 10:05:11.392 [I] [main.go:15] init sec succ
+2018/05/05 10:05:11.557 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/05 17:27:47.932 [D] [init.go:128] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:4 version:3 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1032,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 17:27:47.933 [D] [init.go:128] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1032 1517495965 1517582365 0 900 0}]]
+2018/05/05 17:27:47.935 [I] [main.go:15] init sec succ
+2018/05/05 17:27:47.937 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/05 17:27:48.099 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/05 17:31:32.229 [D] [init.go:128] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:5 version:4 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 17:31:32.229 [D] [init.go:128] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/05 17:31:32.231 [I] [main.go:15] init sec succ
+2018/05/05 17:31:32.236 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/05 17:31:32.382 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/05 17:35:21.645 [D] [init.go:128] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:6 version:5 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 17:35:21.646 [D] [init.go:128] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/05 17:35:21.647 [I] [main.go:15] init sec succ
+2018/05/05 17:35:21.653 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/05 17:35:21.816 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/05 18:08:12.161 [D] [init.go:128] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:6 version:5 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 18:08:12.162 [D] [init.go:128] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/05 18:08:12.164 [I] [main.go:15] init sec succ
+2018/05/05 18:08:12.169 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/05 18:08:12.328 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/05 18:08:27.078 [D] [asm_amd64.s:2337] get config from etcd,<nil> "/cjk/secskill/product":"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]"
+
+2018/05/05 18:08:27.080 [D] [asm_amd64.s:2337] get config from etcd succ,[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]
+2018/05/05 18:17:50.512 [D] [init.go:128] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:7 version:6 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/05 18:17:50.512 [D] [init.go:128] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/05 18:17:50.512 [I] [main.go:15] init sec succ
+2018/05/05 18:17:50.514 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/05 18:17:50.691 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/06 09:03:29.960 [D] [init.go:129] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:7 version:6 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/06 09:03:29.960 [D] [init.go:129] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/06 09:03:29.960 [I] [main.go:15] init sec succ
+2018/05/06 09:03:29.962 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/06 09:03:30.112 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/06 09:41:57.941 [D] [init.go:129] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:7 version:6 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/06 09:41:57.942 [D] [init.go:129] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/06 09:41:57.942 [D] [init.go:134] init service succ,config:&{{127.0.0.1:6379 64 0 300} {127.0.0.1:2379 5 /cjk/secskill/ /cjk/secskill/product} ./logs/sec.log debug map[1022:0xc04200e390 1052:0xc04200e390] {{0 0} 0 0 0 0}}
+2018/05/06 09:41:57.943 [I] [main.go:15] init sec succ
+2018/05/06 09:41:57.943 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/06 09:41:58.094 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/06 10:07:51.734 [D] [init.go:129] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:7 version:6 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/06 10:07:51.736 [D] [init.go:129] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/06 10:07:51.737 [D] [init.go:134] init service succ,config:&{{127.0.0.1:6379 64 0 300} {127.0.0.1:2379 5 /cjk/secskill/ /cjk/secskill/product} ./logs/sec.log debug map[1022:0xc0421b48d0 1052:0xc0421b48d0] {{0 0} 0 0 0 0}}
+2018/05/06 10:07:51.738 [I] [main.go:15] init sec succ
+2018/05/06 10:07:51.740 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/06 10:07:51.887 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/06 10:08:02.031 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 10:08:02] "GET /secKill HTTP/1.1 404 0" 0.005000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 10:08:02.158 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 10:08:02] "GET /favicon.ico HTTP/1.1 404 0" 0.001000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 10:08:02.159 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 10:08:02] "GET /favicon.ico HTTP/1.1 404 0" 0.000998  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 10:08:19.290 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 10:08:19] "GET /secinfo HTTP/1.1 200 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 10:08:30.938 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 10:08:30] "GET /seckill HTTP/1.1 200 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 10:08:39.735 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 10:08:39] "GET /seckill HTTP/1.1 200 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 14:29:46.616 [D] [init.go:129] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:7 version:6 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/06 14:29:46.617 [D] [init.go:129] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/06 14:29:46.619 [D] [init.go:134] init service succ,config:&{{127.0.0.1:6379 64 0 300} {127.0.0.1:2379 5 /cjk/secskill/ /cjk/secskill/product} ./logs/sec.log debug map[1022:0xc04200e330 1052:0xc04200e330] {{0 0} 0 0 0 0}}
+2018/05/06 14:29:46.619 [I] [main.go:15] init sec succ
+2018/05/06 14:29:46.622 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/06 14:29:46.779 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/06 14:31:42.358 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 02:31:42] "GET /seckill HTTP/1.1 200 0" 0.000500  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 14:32:07.873 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 02:32:07] "GET /seckinfo HTTP/1.1 404 0" 0.001003  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 14:32:16.116 [E] [asm_amd64.s:509] Invalid request.get product_id failed,err:strconv.Atoi: parsing "": invalid syntax
+2018/05/06 14:32:16.119 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 02:32:16] "GET /secinfo HTTP/1.1 200 0" 0.004000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 14:33:36.343 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 02:33:36] "GET /secinfo?product_id=1052 HTTP/1.1 200 0" 0.000000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 14:33:40.334 [E] [asm_amd64.s:509] Invalid request.get product_id failed,err:strconv.Atoi: parsing "": invalid syntax
+2018/05/06 14:33:40.335 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 02:33:40] "GET /secinfo HTTP/1.1 200 0" 0.001000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/06 14:34:34.757 [D] [server.go:2619] 127.0.0.1 - - [06/May/2018 02:34:34] "GET /secinfo?product_id=1022 HTTP/1.1 200 0" 0.001000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+
+2018/05/19 12:21:23.195 [D] [init.go:129] key[%!s(int=0)] value[key:"/cjk/secskill/product" create_revision:2 mod_revision:7 version:6 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":10000},{\"ProductId\":1052,\"StartTime\":1517495965,\"EndTime\":1517582365,\"Status\":0,\"Total\":900}]" ]
+2018/05/19 12:21:23.215 [D] [init.go:129] sec info config is [[{1022 1517495965 1517582365 0 10000 0} {1052 1517495965 1517582365 0 900 0}]]
+2018/05/19 12:21:23.216 [D] [init.go:134] init service succ,config:&{{127.0.0.1:6379 64 0 300} {127.0.0.1:2379 5 /cjk/secskill/ /cjk/secskill/product} ./logs/sec.log debug map[1022:0xc04200e390 1052:0xc04200e390] {{0 0} 0 0 0 0}}
+2018/05/19 12:21:23.217 [I] [main.go:15] init sec succ
+2018/05/19 12:21:23.225 [D] [asm_amd64.s:2337] begin watch key:/cjk/secskill/product
+2018/05/19 12:21:23.381 [I] [asm_amd64.s:2337] http server Running on http://0.0.0.0:9091
+2018/05/19 12:29:34.502 [E] [asm_amd64.s:509] Invalid request.get product_id failed,err:strconv.Atoi: parsing "": invalid syntax
+2018/05/19 12:29:34.503 [D] [server.go:2619] 127.0.0.1 - - [19/May/2018 12:29:34] "GET /secinfo HTTP/1.1 200 0" 0.000998  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+
+2018/05/19 12:29:34.848 [D] [server.go:2619] 127.0.0.1 - - [19/May/2018 12:29:34] "GET /favicon.ico HTTP/1.1 404 0" 0.002000  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+
+2018/05/19 12:29:40.707 [E] [asm_amd64.s:509] Invalid request.get product_id failed,err:strconv.Atoi: parsing "": invalid syntax
+2018/05/19 12:29:40.708 [D] [server.go:2619] 127.0.0.1 - - [19/May/2018 12:29:40] "GET /secinfo HTTP/1.1 200 0" 0.000995  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+
+2018/05/19 12:31:26.121 [E] [asm_amd64.s:509] invaild request.get product_id failed,err:not found product_id:102
+2018/05/19 12:31:26.123 [D] [server.go:2619] 127.0.0.1 - - [19/May/2018 12:31:26] "GET /secinfo?product_id=102 HTTP/1.1 200 0" 0.001499  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+
+2018/05/19 12:31:34.863 [D] [server.go:2619] 127.0.0.1 - - [19/May/2018 12:31:34] "GET /secinfo?product_id=1022 HTTP/1.1 200 0" 0.000500  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+
+2018/05/19 12:34:40.673 [D] [server.go:2619] 127.0.0.1 - - [19/May/2018 12:34:40] "GET /secinfo?product_id=1022 HTTP/1.1 200 0" 0.000501  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+
